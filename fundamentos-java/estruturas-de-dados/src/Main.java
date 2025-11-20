@@ -14,4 +14,10 @@ void main() {
     set.add(new Produto(1, "p1", 1.00));
 
     IO.println("Set: " + set);
+
+    Map<Integer, Produto> map = new HashMap<>();
+
+    map.put(1, new Produto(1, "p1", 1.00));
+    
+    IO.println("Map: "+ map);
 }
