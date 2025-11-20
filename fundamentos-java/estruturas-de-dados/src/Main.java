@@ -1,5 +1,12 @@
 void main() {
-    Produto p = new Produto(1, "p1", 2.00);
+    List<Produto> list = new ArrayList<>();
 
-    IO.println(p);
+
+
+    list.add(new Produto(1, "p1", 1.00));
+    list.add(new Produto(2, "p2", 2.00));
+    list.add(new Produto(3, "p3", 3.00));
+    list.add(new Produto(4, "p4", 4.00));
+        
+    IO.println(list);
 }
