@@ -38,4 +38,16 @@ public class Produto {
     public String toString() {
         return "Produto [id = " + id + ", nome = " + nome + ", preco = " + preco + "]";
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o instanceof Produto p && p.id == this.id) return true;
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return this.id;
+    }
 }
