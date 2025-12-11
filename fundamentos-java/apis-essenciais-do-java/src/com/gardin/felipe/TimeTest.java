@@ -17,7 +17,6 @@ public class TimeTest {
 		System.out.println(ldt);
 		
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy'T'HH:mm:ss.SSSSSSSSS");
-		System.out.println(ldt.format(dtf));
-		
+		System.out.println(ldt.format(dtf));	
 	}
 }
