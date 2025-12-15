@@ -1,7 +1,5 @@
 package com.gardin.felipe;
 
-import java.util.*;
-
 public class OptionalTest {
 
 	
